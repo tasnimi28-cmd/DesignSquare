@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Services</title>
+
+    </head>
+    <body>
+        <!--Navigation-->   
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html">Cart</a>
+    </nav>
+    <h1>Our Services</h1>
+    <section id="services">
+        <!--Branding Services-->
+        <h2>Branding</h2>
+        <div class="service" data-name="logo-design" data-price="$50">
+            <h3>Logo Design</h3>
+            <p>Create a unique logo that represents your brand and makes it stand out.</p>
+            <input type="number" class="quantity" min="1" value="1">    
+            <button onclick="addToCart('logo-design', 50, this)">Add to Cart - $50</button>
+        </div>
+        <div class="service" data-name="brand-guidelines" data-price="$100">
+            <h3>Brand Guidelines</h3>
+            <p>Develop comprehensive brand guidelines to maintain consistency across all platforms.</p>
+            <input type="number" class="quantity" min="1" value="1">    
+            <button onclick="addToCart('brand-guidelines', 100, this)">Add to Cart - $100</button>
+        </div>
+        <!--Graphic Design Services-->
+        <h2>Graphic Design</h2>
+        <div class="service" data-name="print-design" data-price="$75">
+            <h3>Print Design</h3>
+            <p>Create professional print materials such as business cards, brochures, and flyers.</p>
+            <input type="number" class="quantity" min="1" value="1">    
+            <button onclick="addToCart('print-design', 75, this)">Add to Cart - $75</button>
+        </div>
+        <div class="service" data-name="digital-graphics" data-price="$80">
+            <h3>Digital Graphics</h3>
+            <p>Create engaging digital graphics for social media, websites, and presentations.</p>
+            <input type="number" class="quantity" min="1" value="1">    
+            <button onclick="addToCart('digital-graphics', 80, this)">Add to Cart - $80</button>
+        </div>
+        <!--Web Development and Design Services-->
+        <h2>Web Development and Design</h2>
+        <div class="service" data-name="website-design" data-price="$300">
+            <h3>Website Design</h3>
+            <p>Design a visually appealing and user-friendly website tailored to your business needs.</p>
+            <input type="number" class="quantity" min="1" value="1">    
+            <button onclick="addToCart('website-design', 300, this)">Add to Cart - $300</button>
+        </div>
+        <!--Social Media Design Services-->
+        <h2>Social Media Design</h2>
+        <div class="service" data-name="social-media-design" data-price="$70">
+            <h3>Social Media Design</h3>
+            <p>Create eye-catching design and graphics for your social media profiles and posts.</p>
+            <input type="number" class="quantity" min="1" value="1">    
+            <button onclick="addToCart('social-media-design', 70, this)">Add to Cart - $70</button>
+        </div>
+        <!--Packaging Design Services-->
+        <h2>Packaging Design</h2>
+        <div class="service" data-name="packaging-design" data-price="$100">
+            <h3>Packaging Design</h3>
+            <p>Create eye-catching packaging designs that make your products stand out on shelves.</p>
+            <input type="number" class="quantity" min="1" value="1">    
+            <button onclick="addToCart('packaging-design', 100, this)">Add to Cart - $100</button>
+        </div>
+        <!--Marketing Collateral Services-->
+        <h2>Marketing Collateral</h2>
+        <div class="service" data-name="marketing-collateral" data-price="$150">
+            <h3>Marketing Collateral</h3>
+            <p>Create professional marketing materials such as brochures, flyers, and presentations.</p>
+            <input type="number" class="quantity" min="1" value="1">    
+            <button onclick="addToCart('marketing-collateral', 150, this)">Add to Cart - $150</button>
+        </div>
+        <!--Additional Services-->
+        <h2>Additional Services</h2>
+        <div class="service" data-name="additional-services" data-price="$200">
+            <h3>Additional Services</h3>
+            <p>Custom services tailored to your specific needs and requirements.</p>
+            <input type="number" class="quantity" min="1" value="1">    
+            <button onclick="addToCart('additional-services', 200, this)">Add to Cart - $200</button>
+        </div>
+
+    </section>
+    </body>
+    <script src="script.js"></script>
+    </html>

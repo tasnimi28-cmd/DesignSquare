@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Shopping Cart</title>
+
+    </head>
+    <body>
+        <!--Navigation-->   
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html">Cart</a>
+    </nav>
+    <h1>Your Shopping Cart</h1>
+    <section id="cart">
+        <h2>Items in Your Cart</h2>
+        <table>
+            <thead>
+                <tr>
+                   <th>Product</th> 
+               
+                    <th>Quantity</th>
+                  
+                    <th>Price</th>
+                    
+                    <th>Total</th>
+                    
+                </tr>
+            </thead>
+            <tbody id="cartItems">
+                <!-- Cart items will be dynamically added here -->
+            </tbody>
+        </table>
+        <h2 id="cartTotal">Total: $0.00</h2>
+        <button id="checkoutButton" onclick="location.href='payment.html'">Proceed to Checkout</button>
+    </body>
+    <script src="script.js"></script>
+    </html>
